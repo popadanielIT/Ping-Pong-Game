@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(47, 79, 79);
+    overflow: hidden;
+}
+#gameContainer{
+    text-align: center;
+    overflow-x: hidden;
+}
+#gameBoard{
+    border: 10px solid;
+    border-radius: 15px;
+    background-color: forestgreen;
+}
+#scoreText{
+    font-family: "consolas", monospace;
+    font-size: 100px;
+    color: rgb(255, 255, 0);
+}
+#resetBtn{
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
+    width: 200px;
+    height: 55px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#resetBtn:hover{
+  opacity: 0.8;
+}
+#resetBtn:active{
+    background-color: rgb(62, 124, 124);
+    color: white;
+}
+#startBtn{
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
+    width: 200px;
+    height: 55px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    position: absolute;
+}
+#startBtn:hover{
+    opacity: 0.8;
+}
+#startBtn:active{
+    background-color: rgb(62, 124, 124);
+    color: white;
+}
+#scoreText span.first{
+    color: rgb(4, 0, 255)
+}
+#scoreText span.last{
+    color: rgb(255, 0, 0);
+}
